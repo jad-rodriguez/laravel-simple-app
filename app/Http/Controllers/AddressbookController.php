@@ -24,7 +24,7 @@ class AddressbookController extends Controller
      */
     public function create()
     {
-        //
+        return view('addressbook.create');
     }
 
     /**
